@@ -1,0 +1,150 @@
+{
+	"_comment": "5=papillon, 4=chupacabra, 3=nessie, 2=pedo, 1=jackalope",
+	"Theme": "Quel animal te vas le mieux ?",
+	"url": "correction.php",
+	"questions": [{
+			"question": "Avez-vous déjà des animaux de compagnie ?",
+			"reponses": [{
+					"choix": "Je n'en ai pas.",
+					"score": "5"
+				},
+				{
+					"choix": "Oui mais sa(leurs) mort ne me dérangerait pas.",
+					"score": "4"
+				},
+				{
+					"choix": "Oui, il(s) vive(nt) à l'intérieur.",
+					"score": "3"
+				},
+				{
+					"choix": "Oui et j'aimerais que mon nouvel animal s'entende avec mon(mes) animal(aux).",
+					"score": "2"
+				},
+				{
+					"choix": "Oui, je l'aime.",
+					"score": "1"
+				}
+			]
+		},
+		{
+			"question": "Avez-vous de l'espace chez vous ? Genre beaucoup",
+			"reponses": [{
+					"choix": "Oui, j'ai même une piscine.",
+					"score": "3"
+				},
+				{
+					"choix": "Oui, j'ai un très grand terrain.",
+					"score": "5"
+				},
+				{
+					"choix": "Non j'ai un appartement",
+					"score": "1"
+				},
+				{
+					"choix": "Oui, j'habite en campagne",
+					"score": "4"
+				},
+				{
+					"choix": "Oui mais je suis proche de mes voisins",
+					"score": "2"
+				}
+			]
+		},
+		{
+			"question": "Avez vous des enfants ?",
+			"reponses": [{
+					"choix": "Oui, et j'aimerais que mon animal s'entende très bien avec eux.",
+					"score": "2"
+				},
+				{
+					"choix": "Oui et se serait bien que mon animal puisse jouer avc eux.",
+					"score": "1"
+				},
+				{
+					"choix": "Oui et ils aiment jouer dans l'eau.",
+					"score": "3"
+				},
+				{
+					"choix": "Non et je n'aiment pas ceux des autres.",
+					"score": "5"
+				},
+				{
+					"choix": "Non, j'aime le calme.",
+					"score": "4"
+				}
+			]
+		},
+		{
+			"question": "Voulez-vous promener votre animal ?",
+			"reponses": [{
+					"choix": "Non, j'aime rester enfermer.",
+					"score": "5"
+				},
+				{
+					"choix": "Non je préfère rester seul dans la piscine avec lui.",
+					"score": "3"
+				},
+				{
+					"choix": "Oui, pour montrer qu'il est trop mignon.",
+					"score": "1"
+				},
+				{
+					"choix": "Oui, même si il est agressif.",
+					"score": "4"
+				},
+				{
+					"choix": "Oui, pour qu'il puisse jouer avec les enfants.",
+					"score": "2"
+				}
+			]
+		},
+		{
+			"question": "Quel régime alimentaire vous coviendrais pour votre animal ?",
+			"reponses": [{
+					"choix": "Des tonnes de poissons.",
+					"score": "3"
+				},
+				{
+					"choix": "Des graines, légumes ect...",
+					"score": "1"
+				},
+				{
+					"choix": "Des enfants.",
+					"score": "2"
+				},
+				{
+					"choix": "Des chèvres.",
+					"score": "4"
+				},
+				{
+					"choix": "Des gens.",
+					"score": "5"
+				}
+			]
+		},
+		{
+			"question": "Qu'est-ce que votre animal aimera ?",
+			"reponses": [{
+					"choix": "Les calins.",
+					"score": "1"
+				},
+				{
+					"choix": "Les enfants.",
+					"score": "2"
+				},
+				{
+					"choix": "Nager.",
+					"score": "3"
+				},
+				{
+					"choix": "Les autres animaux.",
+					"score": "4"
+				},
+				{
+					"choix": "Personnes.",
+					"score": "5"
+				}
+			]
+		}
+	]
+}
