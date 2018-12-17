@@ -1,0 +1,27 @@
+body{
+  background-image:url(fond/owal.jpg);
+  background-size: cover;
+}
+
+.jt{
+  text-align: center;
+  font-size:50px;
+  font-weight:1000;
+  color:#4488FF;
+  }
+  
+.jdef{
+  font-size:18px;
+  color:#335566;
+}
+
+.jdes{
+  font-size:16px;
+  color:#557766;
+}
+
+.tablow{
+  text-align: center;
+}
+table thead tr th{ border:0; }
+table tbody tr td{ border: 0px solid #ccc; }

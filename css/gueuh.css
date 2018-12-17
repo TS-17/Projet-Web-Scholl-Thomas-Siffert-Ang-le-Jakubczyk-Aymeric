@@ -1,0 +1,27 @@
+body{
+  background-image:url(fond/nuage.jpg);
+  background-size: cover;
+}
+
+.titulo{
+  text-align: center;
+  font-size:50px;
+  font-weight:1000;
+  color:#FF7788;
+  }
+  
+.definichion{
+  font-size:18px;
+  color:#996677;
+}
+
+.colupu{
+  font-size:16px;
+  color:#886677;
+}
+
+.tablow{
+  text-align: center;
+}
+table thead tr th{ border:0; }
+table tbody tr td{ border: 0px solid #ccc; }
