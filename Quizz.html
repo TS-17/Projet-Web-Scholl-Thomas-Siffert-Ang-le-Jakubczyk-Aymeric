@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF8" />
+<link rel="stylesheet" href="css/menu.css" />
+<link rel="stylesheet" href="css/Murpapier.css" />
+<script src="jquery-3.3.1.min.js" type="text/javascript"></script>
+<script>
+$().ready(function(){
+	$.getJSON("quizzBien.json", function(data) {
+		var html = "<form action='http://localhost/~tscholl/correction.php'>";
+		$.each(data['questions'], function(i) {
+		  html += "<br/>";
+			html += "<U> <strong> <li>" + data['questions'][i].question+"</li> </strong> </U>";
+			html += "<br/>";
+			$.each(data['questions'][i].reponses, function(j) {
+				html += "<input type='radio' value='"+data['questions'][i].reponses[j].score+"' name='"+i+"'/>";
+				html += data['questions'][i].reponses[j].choix;
+				html += "<br>";
+			});
+		});
+		html+="<input type='submit' value='Score!'></form>"
+		$('body').append(html);
+	});
+});
+</script>
+<title>Adopte un animal rejeté.com</title>
+</head>
+<body>
+<nav>
+<ul>
+<li class="menu_accueil"><a href="Accueil.html">Menu</a>
+<ul class="submenu">
+	<li><a href="Nessie.html"> Fiche de Nathalie</a>
+	<li><a href="Chupacabra.html"> Fiche de Choupi</a></li>
+	<li><a href="Jackalope.html"> Fiche de Jacouille</a></li>
+	<li><a href="Mothman.html"> Fiche de Cyndy</a></li>	
+	<li><a href="Pedo.html"> Fiche de Nounours</a></li>
+	<li><a href="Accueil.html"> Retour à l'accueil</a></li>
+</li>
+</ul>
+</nav>
+</body>
+
+</html>
